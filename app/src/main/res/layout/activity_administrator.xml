@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vantara_blue"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="48dp"
+        android:text="Welcome Admin"
+        android:textColor="@color/vantara_dark_blue"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/manageUsersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/vantara_dark_blue"
+        android:padding="16dp"
+        android:text="1. Manage Users"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/manageMechanicsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/vantara_dark_blue"
+        android:padding="16dp"
+        android:text="2. Manage Service Providers"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/handleComplaintsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/vantara_dark_blue"
+        android:padding="16dp"
+        android:text="3. Handle Complaints"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/managePaymentsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/vantara_dark_blue"
+        android:padding="16dp"
+        android:text="4. Manage Payments"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/generateReportsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/vantara_dark_blue"
+        android:padding="16dp"
+        android:text="5. Generate Reports"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/adminLogoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D32F2F"
+        android:padding="12dp"
+        android:text="Logout"
+        android:textColor="@color/white" />
+
+</LinearLayout>
